@@ -1,3 +1,40 @@
 {
-    
+    "dashboard": "Dashboard",
+    "users": "Users",
+    "website": "Website",
+    "website_pages": "Website Pages",
+    "media_library": "Media Library",
+    "blog": "Blog",
+    "forms": "Forms",
+
+    "toggle_navigation_menu": "Toggle navigation menu",
+    "toggle_language_menu": "Toggle language menu",
+    "toggle_user_menu": "Toggle user menu",
+    "my_account": "My Account",
+    "profile": "Profile",
+    "settings": "Settings",
+    "notification": "Notification",
+    "logout": "Logout",
+    "languages": "Languages",
+    "en": "English",
+    "fr": "French",
+    "ar": "Arabic",
+
+    "list_of_users": "List of Users",
+    "add_user_title": "New User",
+    "details_user_title": "Agent Details",
+    "full_name": "Full Name",
+    "phone": "Phone",
+    "email": "E-mail",
+    "status": "Status",
+    "cancle": "Cancel",
+    "disable": "Deactivate",
+    "name": "Name",
+    "nni": "National ID",
+    "action": "Action",
+
+    "previous": "Previous",
+    "next": "Next",
+    "reset": "Reset",
+    "table_empty": "no records found"
 }

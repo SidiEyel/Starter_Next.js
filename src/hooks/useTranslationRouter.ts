@@ -12,6 +12,11 @@ export function useTranslationRouter() {
   const isCurrentPath = (path: string): boolean => {
     // get the current language from localstroage
     const lang = localStorage.getItem('i18nextLng');
+
+    if (path === '/') {
+      console.log("pathname",pathname)
+      return pathname === `/${lang}`;
+    }
     // set the language in the path
     path = `/${lang}${path}`;
     return pathname === path;

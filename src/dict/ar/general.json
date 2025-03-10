@@ -1,3 +1,40 @@
 {
-    
+    "dashboard": "لوحة القيادة",
+    "users": "المستخدمون",
+    "website": "الموقع الإلكتروني",
+    "website_pages": "صفحات الموقع",
+    "media_library": "مكتبة الوسائط",
+    "blog": "المدونة",
+    "forms": "النماذج",
+
+    "toggle_navigation_menu": "تبديل قائمة التنقل",
+    "toggle_language_menu": "تبديل قائمة اللغة",
+    "toggle_user_menu": "تبديل قائمة المستخدم",
+    "my_account": "حسابي",
+    "profile": "الملف الشخصي",
+    "settings": "الإعدادات",
+    "notification": "الإشعارات",
+    "logout": "تسجيل الخروج",
+    "languages": "اللغات",
+    "en": "الإنجليزية",
+    "fr": "الفرنسية",
+    "ar": "العربية",
+
+    "list_of_users": "قائمة المستخدمين",
+    "add_user_title": "مستخدم جديد",
+    "details_user_title": "تفاصيل العميل",
+    "full_name": "الاسم الكامل",
+    "phone": "الهاتف",
+    "email": "البريد الإلكتروني",
+    "status": "الحالة",
+    "cancle": "إلغاء",
+    "disable": "تعطيل",
+    "name": "الاسم",
+    "nni": "الرقم الوطني",
+    "action": "الإجراء",
+
+    "previous": "السابق",
+    "next": "التالي",
+    "reset": "إعادة تعيين",
+    "table_empty": "لم يتم العثور على سجلات"
 }

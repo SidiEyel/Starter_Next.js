@@ -1,6 +1,7 @@
 import React from "react";
 import { Pagination, Spin, Table } from "antd";
 import type { TableColumnsType } from "antd";
+import { useTranslation } from "react-i18next";
 
 interface TableComponentProps {
   columns: TableColumnsType<any>;
@@ -28,6 +29,7 @@ const TableComponent: React.FC<TableComponentProps> = ({
   loading,
   onRow,
 }) => {
+  const {t} = useTranslation();
 
   const handlePageChange = (page: number) => {
     setSelectedPage(page - 1);
@@ -49,7 +51,7 @@ const TableComponent: React.FC<TableComponentProps> = ({
               : "text-custom-blue"
               }`}
           >
-            Précédent
+            {t("previous")}
           </p>
         </button>
       );
@@ -67,7 +69,7 @@ const TableComponent: React.FC<TableComponentProps> = ({
             className={`${isLast ? "text-[#C4C4C4] cursor-not-allowed" : "text-custom-blue"
               }`}
           >
-            Suivant
+            {t("next")}
           </p>
         </button>
       );
@@ -115,8 +117,8 @@ const TableComponent: React.FC<TableComponentProps> = ({
       <Table
         locale={{
           filterConfirm: "Ok",
-          filterReset: "Réinitialiser",
-          emptyText: "aucun enregistrement trouvé",
+          filterReset: t("reset"),
+          emptyText: t("table_empty")
         }}
         columns={modifiedColumns}
         dataSource={data}
